@@ -10,4 +10,7 @@ public class TestGit {
 	public static void say() {
 		System.out.println("hello world");
 	}
+	public void getFriend(){
+		System.out.println("I am liwei");
+	}
 }
