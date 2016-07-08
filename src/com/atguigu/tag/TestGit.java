@@ -11,11 +11,10 @@ public class TestGit {
 		System.out.println("hello world");
 	}
 	
-	
-	
-	
-	
 	public void getName(){
 		System.out.println("I am wrz");
+	}
+	public void getFriend2(){
+		System.out.println("I am liwei");
 	}
 }
