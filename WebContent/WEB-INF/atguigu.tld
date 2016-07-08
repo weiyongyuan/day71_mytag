@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- tld的根标签，后面四约束文件，固定格式 -->
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<!-- 描述标签库的信息，jsp页面通过这些信息引入标签库 -->
+	<description>我的自定义标签</description>
+	<display-name>atguigu core</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>atguigu</short-name>
+	<uri>http://www.atguigu.com/tag</uri>
+
+	<!--描述具体某一标签的配置信息，KSP页面中根据这些信息调用标签 -->
+	<tag>
+		<description>在页面上显示消息</description>
+		<name>showMessage</name>
+		<tag-class>com.atguigu.tag.ShowMessage</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	<tag>
+		<description>进行if判断</description>
+		<name>if</name>
+		<tag-class>com.atguigu.tag.IfTag</tag-class>
+		<body-content>tagdependent</body-content>
+		<attribute>
+			<name>test</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
