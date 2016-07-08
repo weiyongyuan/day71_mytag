@@ -7,4 +7,7 @@ public class TestGit {
 		System.out.println("hello4");
 		System.out.println("hello world");
 	}
+	public static void say() {
+		System.out.println("hello world");
+	}
 }
