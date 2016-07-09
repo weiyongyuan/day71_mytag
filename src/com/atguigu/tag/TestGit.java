@@ -15,5 +15,10 @@ public class TestGit {
 		System.out.println("I am wrz");
 	}
 	
-
+	/*
+	 * 自己写的名字重了
+	 */
+	/*public void getName(){
+		System.out.println("I am wrz");
+	}*/
 }
