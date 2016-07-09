@@ -25,4 +25,7 @@ public class TestGit {
 		System.out.println("登录成功");
 		System.out.println("注册成功");
 	}
+		public void getById(){
+		System.out.println("GET by id");
+	}
 }
