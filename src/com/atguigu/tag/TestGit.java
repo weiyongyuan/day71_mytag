@@ -29,4 +29,7 @@ public class TestGit {
 	public void getByName(){
 		System.out.println("GET by name");
 	}
+	public void getById(){
+		System.out.println("GET by id");
+	}
 }
