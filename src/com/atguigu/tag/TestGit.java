@@ -23,5 +23,6 @@ public class TestGit {
 	}*/
 	public void login(){
 		System.out.println("登录成功");
+		System.out.println("注册成功");
 	}
 }
