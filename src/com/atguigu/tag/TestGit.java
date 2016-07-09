@@ -21,4 +21,7 @@ public class TestGit {
 	/*public void getName(){
 		System.out.println("I am wrz");
 	}*/
+	public void login(){
+		System.out.println("注册成功");
+	}
 }
